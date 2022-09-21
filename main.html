@@ -6,48 +6,16 @@
 		<script src="../../css/css.js"></script>
 		<link href="../../css/ui.css" rel="stylesheet" />
 		<script src="import.js"></script>
-		<style>
-			body {
- 			 background-color: black;
-			}
-
-		h2 {
-  		color: white;
- 		text-align: center;
-		font-family: Arial, Helvetica, sans-serif;
-		}
-
-		button {
-  		background-color: red;
-		}	
-        .finp {
-    	position: relative;
-        left: 215px;
-  		background-color: blue;
-        border: 2px solid lightblue;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-}
-			.yt-wdth{
-				width: 40vw;
-			}
-			.max-wdth{
-				width: 99vw;
-			}
-		</style>
 	</head>
-	<body style="margin:3em;">
+	<body style="margin:3em;background:black;color:red">
 		<h2>
 			FileX
 		</h2>
 		<hr>
-	<input type="file" id="finp">
+        <center>
+	<input style="background:transparent;color:red" type="file" id="finp">
     <br>
-			<select id="fsize">
+			<select style="background:transparent;color:red" id="fsize">
 				<option>Max Size</option>
 				<option>Youtube Size</option>
 			</select>
@@ -55,5 +23,6 @@
 			<button class="btn-primary minize" onclick="tickImport();">
 				Import
 			</button>
+     </center>
 	</body>
 </html>
